@@ -1,0 +1,14 @@
+@media all and (min-width:820px){
+   
+    .circle{
+        width: 100px;
+    }
+   
+    .pass{
+        width: 40%;
+        margin-top: 70px;
+    }
+    .sign{
+        width: 50%;
+    }
+}

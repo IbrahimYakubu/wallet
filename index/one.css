@@ -1,0 +1,105 @@
+.orange{
+    background-color: rgba(0, 0, 255, 0.963);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 30%; 
+    border-bottom-right-radius: 30%;
+    background-image: url(../images/download.jpg);
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.circle{
+    margin-top: 10%;
+    border-radius: 100%;
+    width: 30%;
+    aspect-ratio: 1/1;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+    box-shadow: rgb(255, 255, 255) 0 0 70px;
+}
+.welcome{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-weight: 800;
+}
+.name{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+}
+.white{
+    display: grid;
+    margin: -10px;
+    place-items: center;
+}
+.pass{
+    margin-top: 20%;
+    border: 0px;
+    border-radius: 10px;
+    color: black;
+   
+    box-shadow: rgb(226, 225, 225) 0 0 10px;
+    width: 80%;
+    padding-left: 10%;
+    font-size: 18px;
+    font-weight: 600;
+    height: 50px;
+    outline-color: blue;
+}
+.pass::placeholder{
+    font-size: 20px;
+    color: rgb(120, 119, 119);
+    font-family: arial;
+}
+.finger{
+    height: 30px;
+    width: 30%;
+    border: 0px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgb(255, 255, 255);
+}
+.finger:hover{
+    cursor: pointer;
+}
+.sign{
+    height: 50px;
+    width: 90%;
+    margin-bottom: 10%;
+    border: 0px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color:blue;
+}
+.sign:hover{
+    cursor: pointer;
+    box-shadow: rgb(67, 37, 173) 0 0 5px;
+}
+.link{
+    color: blue;
+    text-decoration: none;
+    margin-top: 20%;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.forgot{
+color: rgb(113, 114, 114);
+    text-decoration: none;
+    margin-top: 10%;
+    margin-top: 5%;
+}
+body{
+    margin: 1%;
+}

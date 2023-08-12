@@ -1,0 +1,41 @@
+@media all and (min-width: 450px) {
+    .welcome {
+        font-size: 30px;
+    }
+
+    .name {
+        font-size: 15px;
+    }
+
+    .circle {
+        width: 120px;
+        margin-top: 20px;
+    }
+
+    .orange {
+        border-bottom-left-radius: 40%;
+        border-bottom-right-radius: 40%;
+    }
+
+    
+    .pass {
+        width: 60%;
+        margin-top: 40px;
+    }
+
+    .finger {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .sign {
+        width: 70%;
+        margin-bottom: 25px;
+    }
+
+    .link {
+        margin-top: 50px;
+    }
+
+
+}
